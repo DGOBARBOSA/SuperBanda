@@ -26,10 +26,10 @@ h1, h2{
     font-family: 'Lacquer', sans-serif;
     line-height: 2em;
     }
-p{
+p, .concerts{
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.5em;   
-    line-height: 1.5em; 
+    line-height: 1em; 
 }
 .logo-principal{
     display: block;
@@ -38,11 +38,25 @@ p{
     width: 50%;
 }
 .band-name{
-    font-size: 6em;
+    font-size: 5em;
     text-align: center;
 
 }
 .headline{
     font-size: 2em;
     text-align: center;
+}
+.concerts{
+    margin:30px 0;
+    text-align: center;
+    width: 100%; 
+}
+
+.concerts table{
+    background:#ff000082;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    color:#ffffff;
+    width: 35%;
 }
